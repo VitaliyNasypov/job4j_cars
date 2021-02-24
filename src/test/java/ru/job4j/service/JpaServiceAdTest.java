@@ -161,7 +161,7 @@ public class JpaServiceAdTest {
         stringMap.put("photo", "true");
         List<Ad> list = serviceAd.findAllLimit(7, 6, stringMap);
         Assertions.assertTrue(list.size() > 0 && list.size() <= 6);
-        Assertions.assertEquals(2, list.size());
+        Assertions.assertEquals(5, list.size());
         stringMap.put("photo", "false");
         list = serviceAd.findAllLimit(1, 6, stringMap);
         Assertions.assertTrue(list.size() > 0 && list.size() <= 6);
