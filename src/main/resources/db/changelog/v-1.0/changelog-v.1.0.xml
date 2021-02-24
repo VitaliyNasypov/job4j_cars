@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                      https://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.2.xsd">
+
+    <include file="01-changeset-bodies-table.xml" relativeToChangelogFile="true"/>
+    <include file="01-changeset-engines-table.xml" relativeToChangelogFile="true"/>
+    <include file="01-changeset-rudders-table.xml" relativeToChangelogFile="true"/>
+    <include file="01-changeset-transmissions-table.xml" relativeToChangelogFile="true"/>
+    <include file="01-changeset-brands-table.xml" relativeToChangelogFile="true"/>
+    <include file="01-changeset-models-table.xml" relativeToChangelogFile="true"/>
+
+</databaseChangeLog>
