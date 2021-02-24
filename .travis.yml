@@ -7,6 +7,9 @@ jdk: oraclejdk11
 
 services:
   - postgresql
+  
+addons:
+  postgresql: "11.2"
 
 os:
   - linux
