@@ -9,7 +9,7 @@ services:
   - postgresql
   
 addons:
-  postgresql: "11.2"
+  postgresql: "10"
 
 os:
   - linux
